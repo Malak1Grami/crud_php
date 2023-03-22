@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e2e2e2;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    color: #151b15;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #4CAF50;
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    background-color: white;
+    padding: 0px 10px;
+    border-radius: 5px;
+  }
+  
+  select,input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+  }
+
+
+  
+  
+  select,input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="date"]:focus {
+    border: 2px solid #4CAF50;
+  }
+  
+  input[type="submit"] {
+    padding: 20px 40px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+
+
+  /* acceuil */
+
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+  }
+  
+  table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  th {
+    background-color: #5f9ea0;
+    color: white;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .logout-btn {
+    background-color: #ff4136; /* red */
+    color: #fff; /* white */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .logout-btn:hover {
+    background-color: #d50000; /* dark red */
+  }
+
+  select{
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  
